@@ -1,0 +1,20 @@
+.hero-section {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.6); /* semi-transparent layer */
+  padding: 40px;
+  border-radius: 20px;
+}
+.laska{
+    background: linear-gradient(135deg, #00c9ff, #92fe9d);
+      border-radius: 50%;
+  padding: 4px;
+}
