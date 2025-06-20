@@ -17,7 +17,7 @@ const App = () => {
 <br /><br /><br /><br />
 <Projects/>
 
-
+<h1>Salom</h1>
     </div>
   )
 }
