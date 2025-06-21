@@ -1,0 +1,81 @@
+{
+  "navbar": {
+    "home": "Bosh sahifa",
+    "projects": "Loyihalar",
+    "skills": "Ko'nikmalar",
+    "contact": "Bog‘lanish"
+  },
+  "hero": {
+    "title": "Salom, men Lochinbekman!",
+    "description": "Web dasturchiman"
+  },
+  "about": {
+    "title": "Salom, mening to'liq ismim Ubaydullayev Lochinbek👋",
+    "role1": "Frontend Dasturchi",
+    "role2": "React ishqibozi",
+    "role3": "Web Dizayner",
+    "description": "Men 17 yoshli Web-Dasturchiman zamonaviy va funksional veb-ilovalar ishlab chiqishga qiziqaman. Quyidagi bo‘limda loyihalarim bilan tanishishingiz mumkin.",
+    "button": "Loyihalar"
+  },
+  "projects": {
+  "title": "Loyiha va Dasturlash Yo‘lim",
+  "learned": "Nimalarni o‘rgandim",
+  "firstLearned": "Kod yozish qanday bo'lishligini!💫",
+  "firstTitle": "Birinchi yozgan kodlarim!🫡",
+  "firstDesc": "Bu mening dasturlashdagi ilk qadamlardan biri. HTML va CSS bilan oddiy sahifa yasagandim. Kodga bo‘lgan qiziqishim shu yerda boshlandi.",
+  "secondLearned": "Layout dizayni, komponentlar bilan ishlash, media query’lar. Eng asosiysi chalg'imaslikni.",
+  "secondDesc": "Faqat HTML va Bootsrap yordamida yaratilgan portfolio sayti. Fully responsive, zamonaviy va professional.",
+  "thirdLearned": "Layout dizayni, media query’lar.",
+  "thirdDesc": "HTML, CSS, yordamida yaratilgan portfolio sayti. Fully responsive, zamonaviy va professional.",
+  "button": "SAYTIM",
+  "bigTitle": "Mening eng katta loyihalarimdan biri!"
+},"weather": {
+  "alt": "Ob-havo loyihasi",
+  "learned": "Nimalarni o'rgandim",
+  "skills": "API bilan ishlash, real vaqt ma'lumot olish, foydalanuvchi interfeysini yaratish.",
+  "title": "🌦️ Ob-havo ilovasi",
+  "description": "Vite + React yordamida yaratilgan real ob-havo ilovasi. Havo ma'lumotlari onlayn API orqali olinadi.",
+  "button": "SAYTIM"
+},"skills": {
+  "title": "Ko‘nikmalarim",
+  "html": "HTML✔️",
+  "css": "CSS✔️",
+  "js": "JavaScript⬆️",
+  "react": "React⬆️",
+  "bootstrap": "Bootstrap✔️",
+  "antd": "Ant Design⬆️"
+}
+,
+  "contact": {
+    "title": "Bog‘lanish",
+    "rules": {
+      "name": "Ismingizni kiriting!",
+      "email": "Emailni kiriting!",
+      "message": "Xabaringizni yozing!"
+    },
+    "form": {
+      "name": "Ismingiz",
+      "email": "Email",
+      "emailPlaceholder": "Email manzilingiz",
+      "message": "Xabar",
+      "messagePlaceholder": "Xabaringiz...",
+      "send": "Yuborish"
+    },
+    "details": {
+      "title": "Aloqa ma'lumotlari",
+      "social": "Ijtimoiy tarmoqlarim🌐"
+    }
+  },"modal": {
+  "viewFull": "TO‘LIQ KO‘RISH",
+  "title": "Eng birinchi yozgan kodim!🫡",
+  "back": "QAYTISH"
+}
+
+
+
+
+
+
+
+}
+

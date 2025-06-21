@@ -1,27 +1,32 @@
 import React from 'react';
 import { Typography, Button, Avatar } from 'antd';
 import { Typewriter } from 'react-simple-typewriter';
+import { useTranslation } from 'react-i18next';
 import './About me.css'; 
-
-import myPhoto from '../assets/myphoto.jpg'; 
+import myPhoto from '../assets/myphoto.jpg';
 
 function Menhaqimda() {
+  const { t } = useTranslation();
+
   return (
-    <section className="hero-section">
+    <section className="hero-section" id='menhaqimda'>
       <div className="hero-content">
         <Avatar
-        className='laska'
+          className='laska'
           src={myPhoto}
           size={120}
-          style={{ marginBottom: 20 , }}
+          style={{ marginBottom: 20 }}
         />
         <Typography.Title style={{ color: 'white' }} level={2}>
-          Salom, mening to'liq ismim Ubaydullayev Lochinbek👋
+          {t("about.title")}
         </Typography.Title>
         <Typography.Title style={{ color: '#00f5ff' }} level={4}>
-        
           <Typewriter
-            words={['Frontend Developer', 'React Enthusiast', 'Web Designer']}
+            words={[
+              t("about.role1"),
+              t("about.role2"),
+              t("about.role3")
+            ]}
             loop={0}
             cursor
             cursorStyle="|"
@@ -30,18 +35,18 @@ function Menhaqimda() {
             delaySpeed={1500}
           />
         </Typography.Title>
-        <p style={{ color: '#ddd', maxWidth: 800, marginTop: 10 , }} >
-          Men zamonaviy va funksional veb-ilovalar ishlab chiqishga qiziqaman. Quyidagi bo‘limda loyihalarim bilan tanishishingiz mumkin.
+        <p style={{ color: '#ddd', maxWidth: 800, marginTop: 10 }}>
+          {t("about.description")}
         </p>
         <Button
           type="primary"
           size="large"
           style={{ marginTop: 30 }}
           href="#projects"
-          className=' fw-bolder text-decoration-none text-uppercase'
+          className='fw-bolder text-decoration-none text-uppercase'
         >
-          Projects
-        </Button>
+          {t("about.button")}
+        </Button>      
       </div>
     </section>
   );

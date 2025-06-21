@@ -1,0 +1,79 @@
+{
+  "navbar": {
+    "home": "Home",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Hi, I'm Lochinbek!",
+    "description": "I'm a web developer"
+  },
+    "about": {
+    "title": "Hi, my full name is Lochinbek Ubaydullayev👋",
+    "role1": "Frontend Developer",
+    "role2": "React Enthusiast",
+    "role3": "Web Designer",
+    "description": "I’m a 17-year-old web developer passionate about building modern and functional web applications. Check out my projects below.",
+    "button": "Projects"
+  },
+  "projects": {
+  "title": "My Journey in Projects and Coding",
+  "learned": "What I Learned",
+  "firstLearned": "What it feels like to write code!💫",
+  "firstTitle": "My Very First Code!🫡",
+  "firstDesc": "This was one of my first steps in programming. I created a simple page using HTML and CSS. This is where my interest in coding began.",
+  "secondLearned": "Layout design, working with components, media queries. Most importantly, staying focused.",
+  "secondDesc": "A portfolio website built using only HTML and Bootstrap. Fully responsive, modern, and professional.",
+  "thirdLearned": "Layout design, media queries.",
+  "thirdDesc": "A portfolio website built using HTML and CSS. Fully responsive, modern, and professional.",
+  "button": "MY SITE",
+  "bigTitle": "One of My Biggest Projects!"
+},"weather": {
+  "alt": "Weather Project",
+  "learned": "What I learned",
+  "skills": "Working with APIs, fetching real-time data, building user interface.",
+  "title": "🌦️ Weather App",
+  "description": "A real-time weather application built with Vite + React. Weather data is fetched from an online API.",
+  "button": "MY SITE"
+},"skills": {
+  "title": "My Skills",
+  "html": "HTML✔️",
+  "css": "CSS✔️",
+  "js": "JavaScript⬆️",
+  "react": "React⬆️",
+  "bootstrap": "Bootstrap✔️",
+  "antd": "Ant Design⬆️"
+},
+  "contact": {
+    "title": "Contact",
+    "rules": {
+      "name": "Please enter your name!",
+      "email": "Please enter a valid email!",
+      "message": "Please enter your message!"
+    },
+    "form": {
+      "name": "Your Name",
+      "email": "Email",
+      "emailPlaceholder": "Your email address",
+      "message": "Message",
+      "messagePlaceholder": "Your message...",
+      "send": "Send"
+    },
+    "details": {
+      "title": "Contact Information",
+      "social": "My social networks🌐"
+    }
+  },"modal": {
+  "viewFull": "VIEW FULLSCREEN",
+  "title": "The very first code I wrote!🫡",
+  "back": "BACK"
+}
+
+
+
+
+
+
+
+}
