@@ -40,7 +40,7 @@ function MyNavbar() {
             <NavItem><NavLink href="#skills">{t('navbar.skills')}</NavLink></NavItem>
             <NavItem><NavLink href="#contact">{t('navbar.contact')}</NavLink></NavItem>
 <motion.a
-  href="/cv_lochinbek.pdf"
+  href={`${process.env.PUBLIC_URL}/cv_lochinbek.pdf`}
   download
   whileHover={{ scale: 1.1 }}
   whileTap={{ scale: 0.9 }}
