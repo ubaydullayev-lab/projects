@@ -1,9 +1,11 @@
 {
   "navbar": {
+    "menhaqimda": "Bosh sahifa",
     "home": "Bosh sahifa",
     "projects": "Loyihalar",
     "skills": "Ko'nikmalar",
-    "contact": "Bog‘lanish"
+    "contact": "Bog‘lanish",
+     "fayl":"CV Yuklab olish"
   },
   "hero": {
     "title": "Salom, men Lochinbekman!",
@@ -69,6 +71,15 @@
   "viewFull": "TO‘LIQ KO‘RISH",
   "title": "Eng birinchi yozgan kodim!🫡",
   "back": "QAYTISH"
+},
+
+  "footer": {
+    "rights": "Barcha huquqlar himoyalangan.",
+   
+    "projects": "Loyihalar",
+    "skills": "Ko‘nikmalar",
+    "contact": "Bog‘lanish"}
+  
 }
 
 
@@ -77,5 +88,5 @@
 
 
 
-}
+
 

@@ -1,9 +1,11 @@
 {
   "navbar": {
+    "menhaqimda":"Home",
     "home": "Home",
     "projects": "Projects",
     "skills": "Skills",
-    "contact": "Contact"
+    "contact": "Contact",
+    "fayl":"CV Download"
   },
   "hero": {
     "title": "Hi, I'm Lochinbek!",
@@ -68,6 +70,16 @@
   "viewFull": "VIEW FULLSCREEN",
   "title": "The very first code I wrote!🫡",
   "back": "BACK"
+}
+,
+  "footer": {
+    "rights": "All rights reserved."
+  ,
+    
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+
 }
 
 

@@ -6,9 +6,9 @@ import Menhaqimda from './Components/About me';
 import Projects from './Components/Projects';
 import MyNavbar from './Components/Navbar';
 import Skills from './Components/Skills';
-import Contact from './Components/Footer';
+import Contact from './Components/Contact';
 import './i18n';
-
+import Footer from './Components/Footer';
 
 const App = () => {
   return (
@@ -23,7 +23,7 @@ const App = () => {
 <Skills/>
 <hr />
 <Contact/>
-
+<Footer />
     </div>
   )
 }

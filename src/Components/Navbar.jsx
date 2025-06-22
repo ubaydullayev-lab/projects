@@ -39,6 +39,15 @@ function MyNavbar() {
             <NavItem><NavLink href="#projects">{t('navbar.projects')}</NavLink></NavItem>
             <NavItem><NavLink href="#skills">{t('navbar.skills')}</NavLink></NavItem>
             <NavItem><NavLink href="#contact">{t('navbar.contact')}</NavLink></NavItem>
+<motion.a
+  href="/cv_lochinbek.pdf"
+  download
+  whileHover={{ scale: 1.1 }}
+  whileTap={{ scale: 0.9 }}
+  className="btn btn-outline"
+>
+ {t('navbar.fayl')}
+</motion.a>
 
             {/* Mobile viewda ko‘rinadigan - social icons */}
             <div className="d-md-none d-flex flex-column align-items-start mt-3 ms-2 gap-2">
