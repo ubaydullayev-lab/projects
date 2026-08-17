@@ -97,7 +97,7 @@ function Contact() {
                     whileHover={{ scale: 1.2, rotate: -5 }} whileTap={{ scale: 0.95 }} transition={{ type: 'spring', stiffness: 300 }}>
                     <FaTelegram size={30} color="#229ED9" />
                   </motion.a>
-                  <motion.a href="https://www.linkedin.com/in/lochinbek-ubaydullayev-11389536a?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noreferrer"
+                  <motion.a href="https://www.linkedin.com/in/lochinbek-ubaydullayev-11389536a/" target="_blank" rel="noreferrer"
                     whileHover={{ scale: 1.2, rotate: 3 }} whileTap={{ scale: 0.95 }} transition={{ type: 'spring', stiffness: 300 }}>
                     <FaLinkedin size={30} color="#0077B5" />
                   </motion.a>
