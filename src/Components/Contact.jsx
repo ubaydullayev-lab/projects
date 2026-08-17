@@ -97,7 +97,7 @@ function Contact() {
                     whileHover={{ scale: 1.2, rotate: -5 }} whileTap={{ scale: 0.95 }} transition={{ type: 'spring', stiffness: 300 }}>
                     <FaTelegram size={30} color="#229ED9" />
                   </motion.a>
-                  <motion.a href="https://www.linkedin.com/in/laziz-ubaysullayev-11389536a" target="_blank" rel="noreferrer"
+                  <motion.a href="https://www.linkedin.com/in/lochinbek-ubaydullayev-11389536a/" target="_blank" rel="noreferrer"
                     whileHover={{ scale: 1.2, rotate: 3 }} whileTap={{ scale: 0.95 }} transition={{ type: 'spring', stiffness: 300 }}>
                     <FaLinkedin size={30} color="#0077B5" />
                   </motion.a>
@@ -105,7 +105,7 @@ function Contact() {
                     whileHover={{ scale: 1.2, rotate: -4 }} whileTap={{ scale: 0.95 }} transition={{ type: 'spring', stiffness: 300 }}>
                     <FaYoutube size={30} color="#FF0000" />
                   </motion.a>
-                  <motion.a href="https://www.tiktok.com/@........12........l?..." target="_blank" rel="noreferrer"
+                  <motion.a href="https://www.tiktok.com/@skuzb?_r=1&_t=ZS-98xrZ9zA7su" target="_blank" rel="noreferrer"
                     whileHover={{ scale: 1.2, rotate: 5 }} whileTap={{ scale: 0.95 }} transition={{ type: 'spring', stiffness: 300 }}>
                     <FaTiktok size={26} color="white" />
                   </motion.a>
