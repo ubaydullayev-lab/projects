@@ -14,6 +14,9 @@ import { FaInstagram, FaTelegram, FaLinkedin } from 'react-icons/fa6';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
+// PDF faylni shu yerda import qildik (papka manzili to'g'riligiga ishonch hosil qiling)
+import cvFile from '../assets/Lochinbek_Ubaydullayev_CV_Professional.pdf';
+
 function MyNavbar() {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
@@ -39,16 +42,18 @@ function MyNavbar() {
             <NavItem><NavLink href="#projects">{t('navbar.projects')}</NavLink></NavItem>
             <NavItem><NavLink href="#skills">{t('navbar.skills')}</NavLink></NavItem>
             <NavItem><NavLink href="#contact">{t('navbar.contact')}</NavLink></NavItem>
-<a
-  href="/Lochinbek_Ubaydullayev_CV_Professional.pdf"
-  download
-  whileHover={{ scale: 1.1 }}
-  whileTap={{ scale: 0.9 }}
-  className="btn btn-outline"
->
-  {t('navbar.fayl')}
-</a>
-
+            
+            {/* O'zgartirilgan va to'g'rilangan yuklash tugmasi */}
+            <motion.a
+              href={cvFile}
+              download="Lochinbek_Ubaydullayev_CV.pdf"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              className="btn btn-outline"
+              style={{ color: 'white', borderColor: 'white', marginLeft: '10px' }}
+            >
+              {t('navbar.fayl')}
+            </motion.a>
 
             {/* Mobile viewda ko‘rinadigan - social icons */}
             <div className="d-md-none d-flex flex-column align-items-start mt-3 ms-2 gap-2">

@@ -82,9 +82,9 @@ function Contact() {
             {/* CONTACT INFO */}
             <div style={{ flex: 1, minWidth: '250px', background: '#222', padding: '30px', borderRadius: '16px', boxShadow: '0 4px 20px rgba(0,0,0,0.4)' }}>
               <h3 style={{ color: '#00f5ff', marginBottom: '20px' }}>{t('contact.contacts_title')}</h3>
-              <p><PhoneOutlined style={{ color: '#00f5ff' }} /> &nbsp; +998-91-521-92-90 / +998-90-100-95-81</p>
+              <p><PhoneOutlined style={{ color: '#00f5ff' }} /> &nbsp; +1 347 570 9433</p>
               <p><MailOutlined style={{ color: '#00f5ff' }} /> &nbsp; lochinbekubaydullayev2008@gmail.com</p>
-              <p><EnvironmentOutlined style={{ color: '#00f5ff' }} /> &nbsp; Samarqand, Uzbekistan</p>
+              <p><EnvironmentOutlined style={{ color: '#00f5ff' }} /> &nbsp; United States, Virginia</p>
 
               <div style={{ marginTop: '30px' }}>
                 <h4 style={{ color: '#00f5ff', marginBottom: '15px', textTransform: 'capitalize' }}>{t('contact.social_title')}</h4>
